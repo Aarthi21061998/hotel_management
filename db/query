@@ -1,0 +1,3 @@
+select hotel1s.id, hotel1s.hotel_name, accodamation1s.id, accodamation1s.roomtype from hotel1s,accodamation1s
+ where hotel1s.id = accodamation1s.hotel1s_id
+ 
